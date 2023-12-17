@@ -235,7 +235,7 @@ def conjunto():
    try:
      Opcion=int(input("¿Qué unidad quieres convertir?\nCelsius a Kelvin(1)\nKelvin a Celsius(2)\nCelsius a Farenheit(3)\nFarenheit a Celsius(4)\nKelvin a Farenheit(5)\nFarenheit a Kelvin(6)\nKilómetros a Millas(7)\nMillas a Kilómetros(8)\n"))
    except ValueError:
-       print("Opción inválida\n")
+       print("Opción inválida")
        conjunto()
    if Opcion==1:
     C_a_K()
